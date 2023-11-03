@@ -1,0 +1,18 @@
+
+/* src/styles.css */
+
+/* Base styles for the App component */
+.app {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* 100% of the viewport height */
+  text-align: center; /* Center the content horizontally */
+}
+
+/* Media query for larger screens (e.g., laptops) */
+@media (min-width: 400px) {
+  .app {
+    flex-direction: row; /* Display components horizontally */
+  }
+}
